@@ -1,0 +1,10 @@
+<div class="px-10">
+  <h5 class="font-bold my-2">Create User</h5>
+  <app-autocomplete
+    [formControl]="formControln"
+    [dataSource]="vegetableData"
+    [textKey]="'Vegetable'"
+    [regroupBy]="'Category'"
+    [valueKey]="'Vegetable'"
+  ></app-autocomplete>
+</div>
